@@ -3,7 +3,7 @@ import crcmod._crcfunext
 from itertools import islice
 
 
-auth = oss2.Auth('LTAIrtNQMqJA9Tku','8aIKMgN8qujhRjYEI90Gt9N6nwF62V')
+auth = oss2.Auth('','')
 bucket = oss2.Bucket(auth,'oss-cn-hongkong-internal.aliyuncs.com','jf87')
 
 #upload
